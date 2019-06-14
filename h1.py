@@ -6,4 +6,6 @@ for i in range(len(l)):
     for j in range(k,len(l)):
         if(l[i]==l[j] and l[i] not in rep):
             rep.append(l[i])
-print(*(sorted(rep)))
+print(*(sorted(rep)))            
+if(len(rep)==0):
+    print("unique")
