@@ -1,12 +1,7 @@
 n,m=map(int,input().split())
-l=list(map(int,input().split()))
-b=list(map(int,input().split()))
-c=0
-for i in range(0,n):
-    for j in range(0,m):
-        if(l[i]==l[j]):
-            c=c+1
-if(c==m):            
+l1={int(a) for a in input().split()}
+b1={int(b) for b in input().split()}
+if(b1.issubset(l1)):
     print("YES")
 else:
     print("NO")
