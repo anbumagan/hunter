@@ -6,5 +6,5 @@ for i in range(0,n-1):
         if(abs(l[i]+l[j])<c):
             a,b=l[i],l[j]
             c=abs(a+b)
-print(a,b) 
+print(a, b) 
        
