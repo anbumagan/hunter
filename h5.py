@@ -1,4 +1,4 @@
-=str(input())
+n=str(input())
 c=1
 for i in range(len(n)-1):
     a=int(n[i]+n[i+1])
