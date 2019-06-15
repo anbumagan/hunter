@@ -7,4 +7,7 @@ for i in range(n):
         d.append(i)
     else:    
         c.append(l[i])
-print(l[d[0]])
+if(len(d)==0):
+    print("unique")
+else:
+    print(l[d[0]])
